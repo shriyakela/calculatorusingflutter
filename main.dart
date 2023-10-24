@@ -11,17 +11,17 @@ class CalculatorApp extends StatelessWidget {
       title: 'Calculator',
       theme: ThemeData(
         primaryColor:
-            Color.fromARGB(255, 234, 140, 170), // Light Pink Background
+            Color.fromARGB(255, 234, 140, 170), // 
         appBarTheme: AppBarTheme(
           // Hot Pink App Bar
           backgroundColor: Colors.pink,
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
-            primary: Color.fromARGB(255, 238, 134, 190), // Button Color
+            primary: Color.fromARGB(255, 238, 134, 190), // 
             onPrimary: Colors.white, // Text Color
             shape: CircleBorder(), // Circular Buttons
-            minimumSize: Size(80, 80), // Bigger Buttons
+            minimumSize: Size(80, 80), // 
           ),
         ),
       ),
